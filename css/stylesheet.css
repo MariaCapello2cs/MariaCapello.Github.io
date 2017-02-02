@@ -5,27 +5,157 @@ body {
 
 h1 {
   color: #69D6D1;
-
-  font-size: 200pt;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 80px;
 }
 
-.schulbildung {
+h3 {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+.cvbox {
+  margin-left: 162px;
+}
+
+.cvlist {
+  list-style: none;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+margin-left: 300px
+}
+
+.cvlist li {
+  margin: 0 0 0 100px;
+}
+
+.cvlist li .cvtime {
+  width:101px;
   display: inline-block;
-  width: 100%;
-  padding: 20px;
-  font-family: "Monserrat", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  color: grey;
+}
+.cvlist li .cvdesc {
+  font-weight: lighter;
+  color: black;
+  display: inline-block;
+  margin-right: 300px
 }
 
-.content-left {
+blockquote{
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+ /*a {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 31px;
+  color: #69D6D1;
+  font-weight: bolder;
+} */
+
+
+/*  PORTFOLIO */
+
+.Logo {
+transform: rotate(90deg);
+font-family: ProximaNova-Regular;
+font-size: 400px;
+color: #000000;}
+
+.background {
+/* Rectangle: */
+background: #F4F4F4;
+height: 87vh;
+width: 78vw;
+position: fixed;
+top: 5vh;
+left: 18vw;
+z-index: 0;
+
+}
+
+body{
+  margin: 0;
+}
+
+
+ul
+ {
+  /* Contact: */
+      font-family: ProximaNova-Regular;
+      font-size: 5vw;
+      color: #000000;
+      letter-spacing: 0.08px;
+      list-style-type: none;
+
+      position: fixed;
+      bottom: 5vh;
+      left: 26vw;
+      padding: 0;
+      margin: 0;
+}
+
+li{
+  margin-right: 3vw;
   float: left;
-  width: 50%;
-  padding-right: 20px;
 }
 
-.content-right {
-  float: right;
-  width: 50%;
-  padding-left: 20px;
+.Copyrights {
+  /* © 2017 MARIA CAPELLO: */
+  transform: rotate(-90deg) translateX(-71px) translateY(-87px);
+  font-family: ProximaNova-Light;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 0.01px;
+  position: fixed;
+  top: 13vh;
+  left: 8vw;
+  margin: 0;
+
 }
+
+
+
+.description{
+
+  font-family: ProximaNova-Light;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 0.01px;
+  margin: 0;
+
+}
+
+.Biglogo {
+  position: fixed;
+  z-index: 1;
+  top: 32vh;
+  right: 10vw;
+  height: 40vh;
+}
+
+
+ /* logo small */
+
+
+.Smalllogo{
+position: fixed;
+z-index: 1;
+top: 34vh;
+right: 2vw;
+height: 92vh;
+width: 102;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.scroll {
+  width: 600px;
+  height: 180px;
+  margin: 100px auto;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 20px 10px 0 10px;
+
+
 }
