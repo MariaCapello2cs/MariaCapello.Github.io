@@ -53,11 +53,7 @@ blockquote{
 
 /*  PORTFOLIO */
 
-.Logo {
-transform: rotate(90deg);
-font-family: ProximaNova-Regular;
-font-size: 400px;
-color: #000000;}
+
 
 .background {
 /* Rectangle: */
@@ -115,21 +111,11 @@ li{
 
 
 
-.description{
-
-  font-family: ProximaNova-Light;
-  font-size: 12px;
-  color: #000000;
-  letter-spacing: 0.01px;
-  margin: 0;
-
-}
-
 .Biglogo {
   position: fixed;
   z-index: 1;
-  top: 29vh;
-  right: 0w;
+  top:31vh;
+  right: 2vw;
   height: 47vh;
   width: 279px;
 }
@@ -145,7 +131,7 @@ top: 34vh;
 right: 2vw;
 height: 92vh;
 width: 102;
-z-index: 2;
+z-index: 5;
 }
 
 a{
@@ -153,7 +139,7 @@ a{
   text-decoration: none;
 }
 
-.perspective {
+.perspective1 {
   width: 700px;
   height: 530px;
   position:relative;
@@ -163,34 +149,121 @@ a{
   margin-top:5vh;
   margin-bottom: 300px;
   background-color:
+}
+
+.perspective2 {
+  width: 700px;
+  height: 530px;
+  position:relative;
+  z-index: 1;
+  left:50%;
+  margin-left: -350px;
+  margin-bottom: 300px;
+  background-color:
 
 }
- .imagebox {
+
+.perspective3 {
+  width: 700px;
+  height: 530px;
+  position:relative;
+  z-index: 1;
+  left:50%;
+  margin-left: -350px;
+  background-color:
+
+}
+.imagebox {
+   overflow-y: hidden;
+   overflow-x: auto;
+   width: 600px;
+   height: 100%;
+   float: right;
+   position: absolute;
+   left: 330px;
+
+}
+
+.imagebox2 {
 overflow-y:  hidden;
 overflow-x: auto;
-width: 400px;
+width: 300px;
+height:100%;
+float:right;
+
+}
+.imagebox3 {
+overflow-y:  hidden;
+overflow-x: auto;
+width: 300px;
 height: 100%;
 float:right;
+
 }
 
 .description{
 float:left;
 width: 200px;
-font-size: 20pt
+font-size: 20pt;
+font-family: ProximaNova-Light;
+color: #000000;
+letter-spacing: 0.01px;
+margin: 0;
 
+}
 
+.imgscroll {
+  width:  2430px;
+}
+
+.imgscroll2 {
+  width: 2217px;
+
+}
+
+.imgscroll3 {
+  width: 2217px;
 }
 
 #perspective1 .imagebox img {
-  width: 400px;
+  width: 600px;
   margin-right: 6px;
 }
-
 #perspective1 .imagebox img:nth-child(4){
   margin-right: 0;
 }
 
-.imgscroll {
-  width: 1630px;
+#perspective2 .imagebox2 img {
+  height:400px;
+  margin-right: 6px;
+}
+#perspective2 .imagebox2 img:nth-child(6){
+  margin-right: 0;
+}
 
+
+#perspective3 .imagebox3 img {
+  height:400px;
+  margin-right: 6px;
+}
+
+#perspective3 .imagebox3 img:nth-child(5){
+  margin-right: 0;
+}
+
+#perspective3 .imagebox3 .imgscroll3 img:nth-child(3) {
+  margin-right: 6px;
+  width: 300px;
+  height: 274px;
+}
+
+.scrollword{
+  position: fixed;
+  bottom: 20vh;
+  left: 40vw;
+  font-size: 15pt;
+  font-style: italic;
+  padding left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
