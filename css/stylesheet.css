@@ -339,9 +339,24 @@ p{
 }
 
 .morepictures {
-  font-family: ProximaNova-Light;
-  z-index: 7;
+  font-family: proximanova-Light;
+  font-size: 25pt;
   position: fixed;
-  top: 10vw;
-  left: 22vw;
+  top: 77vh;
+  left: 10vw;
+}
+
+.morepictures img:hover {
+  -webkit-transform: scale(1.5);
+  color: blue;
+}
+
+.carbonmade img:hover {
+  -webkit-transform: scale(1.5);
+  color: gold;
+}
+
+.mail img:hover {
+  -webkit-transform: scale(1.5);
+  color: red;
 }
