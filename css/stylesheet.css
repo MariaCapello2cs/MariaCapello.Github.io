@@ -85,7 +85,11 @@ ul
   left: 26vw;
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   z-index: 8;
+=======
+  z-index: 4;
+>>>>>>> gh-pages
 }
 
 li{
