@@ -337,3 +337,11 @@ p{
   z-index: -1;
 
 }
+
+.morepictures {
+  font-family: ProximaNova-Light;
+  z-index: 7;
+  position: fixed;
+  top: 10vw;
+  left: 22vw;
+}
