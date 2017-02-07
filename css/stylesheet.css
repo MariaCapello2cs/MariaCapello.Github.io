@@ -63,7 +63,7 @@ width: 78vw;
 position: fixed;
 top: 5vh;
 left: 18vw;
-z-index: 0;
+z-index: -1;
 
 }
 
@@ -74,19 +74,18 @@ body{
 
 ul
  {
-  /* Contact: */
-      font-family: ProximaNova-Regular;
-      font-size: 5vw;
-      color: #000000;
-      letter-spacing: 0.08px;
-      list-style-type: none;
+  font-family: ProximaNova-Regular;
+  font-size: 5vw;
+  color: #000000;
+  letter-spacing: 0.08px;
+  list-style-type: none;
 
-      position: fixed;
-      bottom: 5vh;
-      left: 26vw;
-      padding: 0;
-      margin: 0;
-      z-index: 2;
+  position: fixed;
+  bottom: 5vh;
+  left: 26vw;
+  padding: 0;
+  margin: 0;
+  z-index: 3;
 }
 
 li{
@@ -113,7 +112,7 @@ li{
 
 .Biglogo {
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top:31vh;
   right: 2vw;
   height: 47vh;
@@ -125,13 +124,14 @@ li{
 
 
 .Smalllogo{
-position: fixed;
-z-index: 1;
-top: 34vh;
-right: 2vw;
-height: 92vh;
-width: 102;
-z-index: 5;
+
+  position: fixed;
+  top: 39vh;
+  top: 23vh;
+  right: 2vw;
+  height: 92vh;
+  width: 139px;
+  z-index: 5;
 }
 
 a{
@@ -217,12 +217,12 @@ margin: 0;
 }
 
 .imgscroll2 {
-  width: 2217px;
+  width: 2055px;
 
 }
 
 .imgscroll3 {
-  width: 2217px;
+  width: 1526px;
 }
 
 #perspective1 .imagebox img {
@@ -259,11 +259,79 @@ margin: 0;
 
 .scrollword{
   position: fixed;
-  bottom: 20vh;
-  left: 40vw;
-  font-size: 15pt;
+  bottom: 21vh;
+  left: 44vw;
+  font-size: 12pt;
+  font-family: ProximaNova-Light;
   font-style: italic;
   padding left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+
+/* about */
+
+
+h6 {
+  position: fixed;
+  top: 1vh;
+  right: 7vw;
+  z-index: 3;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ProximaNova-Bold;
+  font-size: 7vw;
+
+}
+
+.imagenabout {
+  position: fixed;
+  top: 10vh;
+  right: 7vw;
+  z-index: 1;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aboutdescription{
+  position: fixed;
+  bottom: 43vh;
+  left: 13vw;
+  width: 318px;
+  font-size: 15pt;
+  font-family: ProximaNova-Light;
+  z-index: 7;
+}
+
+.mail{
+  font-family: ProximaNova-Light;
+  z-index: 7;
+  position: fixed;
+  left: 54vw;
+  font-size: 130px;
+  top: 9vh;
+
+}
+
+.carbonmade{
+  font-family: ProximaNova-Light;
+  z-index: 7;
+  position: fixed;
+  top: 10vw;
+  left: 22vw;
+  transform: rotate(-90deg);
+
+}
+
+.gif{
+  position: fixed;
+  left: 33vw;
+  top: 10vh;
+  height: 100%;
+  z-index: 4;
+
 }
